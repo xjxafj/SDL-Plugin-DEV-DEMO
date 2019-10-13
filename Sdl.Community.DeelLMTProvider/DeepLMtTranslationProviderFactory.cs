@@ -1,6 +1,5 @@
 ﻿using Sdl.LanguagePlatform.TranslationMemoryApi;
 using System;
-using Sdl.Community.DeelLMTProvider;
 
 namespace Sdl.Community.DeepLMTProvider
 {
