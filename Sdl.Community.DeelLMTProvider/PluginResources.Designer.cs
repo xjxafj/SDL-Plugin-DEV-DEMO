@@ -22,7 +22,7 @@ namespace Sdl.Community.DeepLMTProvider {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class PluginResources {
+    public class PluginResources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace Sdl.Community.DeepLMTProvider {
         ///   返回此类使用的缓存的 ResourceManager 实例。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Sdl.Community.DeepLMTProvider.PluginResources", typeof(PluginResources).Assembly);
@@ -51,7 +51,7 @@ namespace Sdl.Community.DeepLMTProvider {
         ///   重写当前线程的 CurrentUICulture 属性。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace Sdl.Community.DeepLMTProvider {
         /// <summary>
         ///   查找类似 Sdl.Community.DeepLMTProvider 的本地化字符串。
         /// </summary>
-        internal static string Plugin_Name {
+        public static string Plugin_Name {
             get {
                 return ResourceManager.GetString("Plugin_Name", resourceCulture);
             }
@@ -72,7 +72,7 @@ namespace Sdl.Community.DeepLMTProvider {
         /// <summary>
         ///   查找类似 DeepL MT Provider 的本地化字符串。
         /// </summary>
-        internal static string Plugin_NiceName {
+        public static string Plugin_NiceName {
             get {
                 return ResourceManager.GetString("Plugin_NiceName", resourceCulture);
             }
@@ -81,7 +81,7 @@ namespace Sdl.Community.DeepLMTProvider {
         /// <summary>
         ///   查找类似 [segment already translated...source not re-sent] 的本地化字符串。
         /// </summary>
-        internal static string TranslationLookupDraftNotResentMessage {
+        public static string TranslationLookupDraftNotResentMessage {
             get {
                 return ResourceManager.GetString("TranslationLookupDraftNotResentMessage", resourceCulture);
             }
