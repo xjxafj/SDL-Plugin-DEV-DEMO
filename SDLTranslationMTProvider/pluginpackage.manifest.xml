@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginPackage xmlns="http://www.sdl.com/Plugins/PluginPackage/1.0">
+  <PlugInName>SDLTranslationMTProvider</PlugInName>
+  <Version>1.0</Version>
+  <Description>Plugin description</Description>
+  <Author>FJ</Author>
+  <RequiredProduct name="SDLTradosStudio" minversion="15.0" />
+  <!--第三方引用-->
+  <Include>
+    <File>Newtonsoft.Json.dll</File>
+    <!--<File>Sdl.Community.DeepLMTProvider.Telemetry.dll</File>
+    <File>Microsoft.ApplicationInsights.dll</File>
+    <File>RestSharp.dll</File>-->
+  </Include>
+</PluginPackage>
